@@ -3,3 +3,4 @@
   | # | title | link |
   |-|-|-|
   |1|instalation|[click](classes/class1.md)|
+  |2|code html|[click](index.html)|
