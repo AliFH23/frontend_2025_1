@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+#nav{
+    background-color: darkgreen;
+    grid-area: nav;
+    text-align: center;
+    
+}
+#leftmenu{
+    background-color: darkcyan;
+    grid-area: leftmenu;
+    height: 800px;
+}
+#main{
+    background-color: slategray;
+    grid-area: main;
+    height: 600px;
+}
+#footer{
+    background-color: dimgray;
+    grid-area: footer;
+    height: 200px;
+}
+#rightmenu{
+    background-color: firebrick;
+    grid-area: rightmenu;
+}
+#container{
+    display:grid;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'leftmenu main main rightmenu'
+    'leftmenu footer footer footer'
+    ;
+    text-align: center;
+    color: azure;
+   
+}
