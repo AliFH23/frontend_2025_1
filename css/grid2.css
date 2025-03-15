@@ -1,49 +1,36 @@
-body{
-    background-color: rgb(250, 250, 250);
-    
-}
-a{
-    text-decoration: none;
-    border-radius: 100px;
-    font-size: medium;
-}
-button{
-    border-radius: 30px;
-}
 
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-}
 #nav{
-    background-color: rgb(132, 0, 128);
+    background-color:gray;
     grid-area: nav;
     text-align: center;
-    display:table-row-group;
+    border-radius:100px ; 
+         
     
     
 }
 #leftmenu{
-    background-color: rgb(176, 12, 157);
+    
     grid-area: leftmenu;
     height: 800px;
 }
 #main{
-    background-color: rgb(255, 255, 255);
+   
     grid-area: main;
-    height: 600px;
+    height: 500px;
     color: black;
    
 }
 #footer{
-    background-color: rgb(132, 0, 128);
+    background-color:gray;
     grid-area: footer;
     height: 200px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 #rightmenu{
-    background-color: rgb(176, 12, 157);
+  
     grid-area: rightmenu;
-    display:ruby-text;
+
 
   
 }
@@ -52,10 +39,63 @@ p{
     grid-template-areas: 
     'nav nav nav nav'
     'leftmenu main main rightmenu'
-    'leftmenu footer footer footer'
+    'footer footer footer footer'
     ;
     text-align: center;
-    color: azure;
-   
-   
+    color: azure;  
+}
+.logo{
+    width: 100px;
+    border-radius: 100px;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+}
+#nav{
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+.navlist>li{
+    margin-left: 200px ;
+    color: white;
+    background-color:darkblue;
+    padding: 15px;
+    border-radius: 80px;
+
+}
+.navlist>li:hover{
+    background-color: black;
+}
+#leftmenu>ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#leftmenu>ul>li{
+    background-color: burlywood;
+    padding: 10px; 
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 40px;
+
+}
+#leftmenu>ul>li:hover{
+    background-color: lightcoral;
+}
+#rightmenu>ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#rightmenu>ul>li{
+    background-color: burlywood;
+    padding: 10px; 
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 40px;
+
+}
+#rightmenu>ul>li:hover{
+    background-color: lightcoral;
+    
 }
