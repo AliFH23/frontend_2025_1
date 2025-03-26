@@ -54,3 +54,36 @@ body{
      
     
 }
+/* dishes menu */
+#dishesmenu{
+    margin-top: 50px;
+}
+#dishesmenu{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 20px;
+}
+.menuItem{
+    border: 0.5 solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+.menuItem>img{
+    width:200px ;
+    height: 200px;
+    border-radius:100% ;
+}
+.heart{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: #39db4a;
+    right:  0px ;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 50px 0px 50px;
+}
